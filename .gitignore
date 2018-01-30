@@ -20,6 +20,7 @@ target/promotion-service-1.0.0-SNAPSHOT.jar.original
 # Eclipse
 build/
 WebContent/WEB-INF/lib/
+WebContent/WEB-INF/classes/
 .settings/
 .classpath
 .project
