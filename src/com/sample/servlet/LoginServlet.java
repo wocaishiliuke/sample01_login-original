@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.sample.domain.User;
 import com.sample.service.UserService;
 
-//@WebServlet(description="登陆servlet", urlPatterns="/login/*")
+//@WebServlet(description="登陆servlet", urlPatterns="/login")
 public class LoginServlet extends HttpServlet {
 
 	@Override
@@ -31,9 +31,9 @@ public class LoginServlet extends HttpServlet {
 		
 		resp.setContentType("text/html;charset=utf-8");
 		if (null == existUser) {
-			resp.getWriter().print("<font color='green'>登陆成功<font/>");
-		}else {
 			resp.getWriter().print("<font color='red'>登陆失败<font/>");
+		}else {
+			resp.getWriter().print("<font color='green'>登陆成功<font/>");
 		}
 	}
 	

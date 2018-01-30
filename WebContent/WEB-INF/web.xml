@@ -13,6 +13,6 @@
   <servlet-mapping>
   	<servlet-name>loginServlet</servlet-name>
   	<!-- 服务器端绝对路径包含到项目名 -->
-  	<url-pattern>/login/*</url-pattern>
+  	<url-pattern>/login</url-pattern>
   </servlet-mapping>
 </web-app>
